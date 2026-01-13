@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { NavLink } from 'react-router-dom';
-import assets from '../assets/assets';
+import {assets} from '../assets/assets.js';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

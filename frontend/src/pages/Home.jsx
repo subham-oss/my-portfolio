@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navber";
 import Herosection from "../components/Herosection";
+import TechStack from "../components/TechStack";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
      <div className="relative z-10">
         <Navbar />
         <Herosection />
+        <TechStack/>
       </div>
     </div>
     </> 
