@@ -8,6 +8,9 @@ import tailwind from './tailwind.png';
 import mysql from './mysql.png';
 import mongodb from './mongodb.png';
 import express from './express.png';
+import quickshow from './quickShow.png';
+import prescripto from './prescripto.png';
+import myPortfolio from './myPortfolio.png';
 const assets =  {
     logo,
     my_image
@@ -47,4 +50,34 @@ const techStackAssets = [
         img: express
     }
 ];
-export  {assets,techStackAssets} ;
+
+const projects = [
+  {
+    id: 1,
+    title: "QuickShow",
+    description: "QuickShow is a MERN-based real-time movie ticket booking system with smooth user and admin features.",
+    image: quickshow,
+    tags: ["React", "Express.js", "MongoDB"],
+    github_link:"https://github.com/subham-oss/movie-ticket-booking",
+    src:"https://movie-ticket-booking-nine.vercel.app"
+  },
+  {
+    id: 2,
+    title: "Prescripto",
+    description: "Prescripto is a MERN-based doctor booking app for appointments, schedule management, and payments.",
+    image: prescripto,
+    tags: ["React", "Express.js", "MongoDB"],
+    github_link:"https://github.com/subham-oss/doc_booking",
+    src:"https://doc-booking-2.onrender.com/"
+  },
+  {
+    id: 3,
+    title: "My Portfolio",
+    description: "My personal portfolio website showcasing my projects and skills. Built with React and Tailwind CSS.",
+    image: myPortfolio,
+    tags: ["Tailwind", "React", "Express.js"],
+    github_link:"https://github.com/subham-oss/my-portfolio",
+    src:""
+  }
+];
+export  {assets,techStackAssets,projects} ;

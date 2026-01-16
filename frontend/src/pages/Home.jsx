@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navber";
 import Herosection from "../components/Herosection";
 import TechStack from "../components/TechStack";
+import ProjectSection from "../components/Projectsection";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
         <Navbar />
         <Herosection />
         <TechStack/>
+        <ProjectSection/>
       </div>
     </div>
     </> 
