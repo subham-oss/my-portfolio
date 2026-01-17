@@ -3,6 +3,7 @@ import Navbar from "../components/Navber";
 import Herosection from "../components/Herosection";
 import TechStack from "../components/TechStack";
 import ProjectSection from "../components/Projectsection";
+import AboutSection from "../components/AboutSection";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
         <Herosection />
         <TechStack/>
         <ProjectSection/>
+        <AboutSection/>
       </div>
     </div>
     </> 
