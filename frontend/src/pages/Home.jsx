@@ -4,6 +4,7 @@ import Herosection from "../components/Herosection";
 import TechStack from "../components/TechStack";
 import ProjectSection from "../components/Projectsection";
 import AboutSection from "../components/AboutSection";
+import ContactSection from "../components/ContactSection";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
         <TechStack/>
         <ProjectSection/>
         <AboutSection/>
+        <ContactSection/>
       </div>
     </div>
     </> 
