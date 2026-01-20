@@ -5,6 +5,7 @@ import TechStack from "../components/TechStack";
 import ProjectSection from "../components/Projectsection";
 import AboutSection from "../components/AboutSection";
 import ContactSection from "../components/ContactSection";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
         <ProjectSection/>
         <AboutSection/>
         <ContactSection/>
+        <Footer/>
       </div>
     </div>
     </> 
