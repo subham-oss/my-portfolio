@@ -8,6 +8,10 @@ const FlipCard = ({ image, name }) => {
     <motion.div
       style={{ perspective: "1000px" }} 
       className="w-32 h-32 md:w-36 md:h-36 cursor-pointer"
+       initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
     >
       <motion.div
         className="relative w-full h-full transition-all duration-500"
@@ -45,10 +49,18 @@ const TechStack = () => {
   return (
     <section className="relative z-10 py-20 px-6">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-white mb-12">
+        <motion.h2
+         className="text-3xl md:text-4xl font-bold text-white mb-12"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+         >
           My <span className="text-indigo-400">Tech Stack</span>
-        </h2>
-        <div className="grid pl-5 sm:pl-36 grid-cols-2 gap-6 md:hidden">
+        </motion.h2>
+        <div
+        className="grid pl-5 sm:pl-36 grid-cols-2 gap-6 md:hidden"
+       
+        >
           {techStackAssets.map((tech, index) => (
             <FlipCard key={index} image={tech.img} name={tech.name} />
           ))}
