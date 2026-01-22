@@ -60,10 +60,10 @@ const Herosection = () => {
   }, []);
 
   return (
-    <section className="relative z-10 min-h-screen flex items-center justify-center px-4 py-20 md:py-0">
+    <section id='Home' className="relative z-10 min-h-screen flex items-center justify-center px-4 py-20 md:py-0">
         
       
-      <div className="w-full max-w-6xl bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl overflow-hidden shadow-2xl">
+      <div  className="w-full max-w-6xl bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl overflow-hidden shadow-2xl">
         
         <div className="lg:grid  lg:grid-cols-2 min-h-150">
             

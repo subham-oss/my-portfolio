@@ -29,7 +29,7 @@ const AboutSection = () => {
   ];
 
   return (
-    <section className="relative z-10 py-20 px-6 overflow-hidden">
+    <section id='About' className="relative z-10 py-20 px-6 overflow-hidden">
          <h2 className="text-4xl text-center font-black text-white  mb-20">
                 About <span className="text-indigo-400">Me</span>
               </h2>
